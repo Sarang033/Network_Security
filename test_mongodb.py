@@ -2,7 +2,7 @@
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi   # if you’re using Stable API with MongoDB Atlas
 
-uri = "mongodb+srv://sarangchamp2004:Sarangmongo33n@cluster0.lxroneg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://sarangchamp2004:<password>@cluster0.lxroneg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
